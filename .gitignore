@@ -8,3 +8,4 @@ Cargo.lock
 *.mkv
 /yt-dlp.exe
 /yt-dlp
+cargo_home/**
