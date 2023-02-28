@@ -14,6 +14,11 @@ ENV PATH="/root/.cargo/bin:${PATH}"
 
 RUN apt-get install -y build-essential
 
+# Install pip 
+RUN apt-get install -y python3-pip
+
+# pip install yt-dlp
+RUN pip3 install yt-dlp
 
 # Set the working directory 
 WORKDIR /home/youtube-dl-rs
